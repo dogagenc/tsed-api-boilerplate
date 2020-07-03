@@ -11,7 +11,8 @@
     "start:prod": "cross-env NODE_ENV=production node dist/index.js",
     "test:lint": "eslint src --ext .ts",
     "test:lint:fix": "eslint src --ext .ts --fix",
-    "prettier": "prettier '{src,test}/**/*.ts' --write"
+    "prettier": "prettier '{src,test}/**/*.ts' --write",
+    "bump": "npm version ${LEVEL:patch} --force -m 'Version %s'"
   },
   "_moduleAliases": {
     "@src": "./dist"
