@@ -1,5 +1,5 @@
 {
-  "name": "tsed-server-boilerplate",
+  "name": "tsed-api-boilerplate",
   "version": "0.0.2",
   "description": "REST API server using Ts.ED",
   "author": "Doga Genc <dogagenc@gmail.com>",

@@ -5,9 +5,9 @@ type Status = {
 };
 
 @Controller('/')
-export class HelloWorldController {
+export class StatusController {
   @Get('/')
-  get(): Status {
+  getStatus(): Status {
     return {
       hello: 'world',
     };
