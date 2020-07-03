@@ -1,6 +1,6 @@
 {
   "name": "tsed-server-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "REST API server using Ts.ED",
   "author": "Doga Genc <dogagenc@gmail.com>",
   "scripts": {
@@ -12,7 +12,7 @@
     "test:lint": "eslint src --ext .ts",
     "test:lint:fix": "eslint src --ext .ts --fix",
     "prettier": "prettier '{src,test}/**/*.ts' --write",
-    "bump": "npm version ${LEVEL:patch} --force -m 'Version %s'"
+    "bump": "npm version ${LEVEL:-patch} --force -m 'Version %s'"
   },
   "_moduleAliases": {
     "@src": "./dist"
