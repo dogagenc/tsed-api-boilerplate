@@ -1,7 +1,8 @@
 {
-  "name": "tsed-server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tsed-server-boilerplate",
+  "version": "0.0.1",
+  "description": "REST API server using Ts.ED",
+  "author": "Doga Genc <dogagenc@gmail.com>",
   "scripts": {
     "build": "yarn tsc",
     "tsc": "tsc --project tsconfig.compile.json",
