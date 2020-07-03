@@ -1,6 +1,6 @@
 {
   "name": "tsed-api-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "REST API server using Ts.ED",
   "author": "Doga Genc <dogagenc@gmail.com>",
   "scripts": {
