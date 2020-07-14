@@ -1,4 +1,4 @@
-import {Controller, Get} from '@tsed/common';
+import { Controller, Get } from '@tsed/common';
 
 type Status = {
   hello: 'world';

@@ -1,6 +1,6 @@
-import {Inject, Service} from '@tsed/common';
-import {MongooseModel} from '@tsed/mongoose';
-import {EventModel, EventTypes} from '@src/models/EventModel';
+import { Inject, Service } from '@tsed/common';
+import { MongooseModel } from '@tsed/mongoose';
+import { EventModel, EventTypes } from '@src/models/EventModel';
 
 export interface EventResponse {
   total: number;
@@ -13,7 +13,7 @@ export class EventService {
   private Model: MongooseModel<EventModel>;
 
   async create(type: EventTypes): Promise<EventResponse> {
-    const model = new this.Model({type});
+    const model = new this.Model({ type });
     await model.save();
 
     return this.response(type);
@@ -22,11 +22,11 @@ export class EventService {
   async response(type: EventTypes): Promise<EventResponse> {
     const total = await this.count(type);
 
-    return {total, type};
+    return { total, type };
   }
 
   async count(type: EventTypes): Promise<number> {
-    return await this.Model.count({type});
+    return await this.Model.count({ type });
   }
 
   async totalCount(): Promise<EventResponse[]> {

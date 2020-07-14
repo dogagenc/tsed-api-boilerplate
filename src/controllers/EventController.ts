@@ -1,6 +1,6 @@
-import {Controller, Get} from '@tsed/common';
-import {EventTypes} from '@src/models/EventModel';
-import {EventService, EventResponse} from '@src/services/EventService';
+import { Controller, Get } from '@tsed/common';
+import { EventTypes } from '@src/models/EventModel';
+import { EventService, EventResponse } from '@src/services/EventService';
 
 @Controller('/event')
 export class EventController {

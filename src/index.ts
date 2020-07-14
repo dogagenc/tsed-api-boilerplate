@@ -1,6 +1,6 @@
-import {$log} from '@tsed/common';
-import {PlatformExpress} from '@tsed/platform-express';
-import {Server} from './Server';
+import { $log } from '@tsed/common';
+import { PlatformExpress } from '@tsed/platform-express';
+import { Server } from './Server';
 
 if (process.env.NODE_ENV === 'production') {
   require('module-alias/register');

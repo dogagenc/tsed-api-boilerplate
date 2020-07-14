@@ -1,7 +1,7 @@
-import {Configuration, Inject} from '@tsed/di';
-import {PlatformApplication} from '@tsed/common';
+import { Configuration, Inject } from '@tsed/di';
+import { PlatformApplication } from '@tsed/common';
 import '@tsed/platform-express';
-import {GlobalAcceptMimesMiddleware} from '@tsed/platform-express';
+import { GlobalAcceptMimesMiddleware } from '@tsed/platform-express';
 import * as bodyParser from 'body-parser';
 import * as compress from 'compression';
 import * as cookieParser from 'cookie-parser';

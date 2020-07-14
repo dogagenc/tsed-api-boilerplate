@@ -1,5 +1,5 @@
-import {Default, Enum, Format, Required} from '@tsed/common';
-import {ObjectID, Model} from '@tsed/mongoose';
+import { Default, Enum, Format, Required } from '@tsed/common';
+import { ObjectID, Model } from '@tsed/mongoose';
 
 export enum EventTypes {
   VISIT = 'visit',
